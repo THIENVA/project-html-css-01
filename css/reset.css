@@ -1,0 +1,159 @@
+/*
+    RESET CSS V2.0
+    Based on Eric Meyer's Reset, with minor modern adjustments.
+    
+    Mục đích: Đảm bảo mọi trình duyệt hiển thị các phần tử HTML giống nhau
+    trước khi áp dụng CSS tùy chỉnh của bạn.
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /* Loại bỏ margin và padding mặc định của trình duyệt */
+  margin: 0;
+  padding: 0;
+  /* Thiết lập lại đường viền */
+  border: 0;
+  /* Đảm bảo cùng kích thước font */
+  font-size: 100%;
+  /* Khôi phục lại kiểu font chữ mặc định (có thể bị reset nếu không cẩn thận) */
+  font: inherit;
+  /* Đảm bảo các phần tử đều hiển thị inline hoặc block theo đúng kiểu */
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Thiết lập lại kiểu hiển thị của thẻ <body> */
+body {
+  line-height: 1; /* Thiết lập khoảng cách dòng cơ bản */
+}
+
+/* Loại bỏ dấu chấm/số của danh sách */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Thiết lập lại định dạng của blockquote và q */
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* Thiết lập lại kiểu bảng */
+table {
+  border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+  border-spacing: 0;
+}
+
+/* --- Cải tiến hiện đại (Box-Sizing) --- */
+/* Đây là một bước quan trọng mà nhiều developer thêm vào reset/normalize */
+html {
+  box-sizing: border-box; /* Bắt đầu thiết lập box-sizing từ thẻ html */
+}
+*,
+*:before,
+*:after {
+  /* Đảm bảo padding và border được tính vào chiều rộng/cao (tính toán layout dễ hơn) */
+  box-sizing: inherit;
+}
