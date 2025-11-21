@@ -2,21 +2,6 @@
   /* box-sizing: border-box; */
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: brown;
-  margin-top: 15px;
-  border: 5px solid black;
-}
-
-.box1 {
-  box-sizing: content-box;
-}
-.box2 {
-  box-sizing: border-box;
-}
-
 html {
   font-size: 80%;
 }
@@ -38,10 +23,19 @@ li {
 }
 
 /*header css*/
-.header nav a {
-  font-size: 1.6rem;
-  line-height: 28px;
-  color: #000;
+
+.header {
+  background-color: #fffcf4;
+}
+
+.header .main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.2rem 0;
 }
 
 .header .body {
@@ -53,17 +47,8 @@ li {
   gap: 3.2rem;
 }
 
-.header .main-content {
-  width: 1170px;
-
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 3.2rem 0;
-}
-
-.header {
-  background-color: #fffcf4;
+.header nav a {
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #000;
 }
