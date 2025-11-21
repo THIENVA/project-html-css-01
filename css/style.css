@@ -22,7 +22,9 @@ html {
 }
 
 body {
+  /* for rem calculation 1.6rem = 16px */
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
 }
 
 /*common css*/
@@ -33,4 +35,35 @@ a {
 
 li {
   list-style: none;
+}
+
+/*header css*/
+.header nav a {
+  font-size: 1.6rem;
+  line-height: 28px;
+  color: #000;
+}
+
+.header .body {
+  display: flex;
+}
+
+.header nav {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header .main-content {
+  width: 1170px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3.2rem 0;
+}
+
+.header {
+  background-color: #fffcf4;
 }
