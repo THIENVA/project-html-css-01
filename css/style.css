@@ -111,3 +111,34 @@ body {
 .hero .main-content {
   display: flex;
 }
+
+.hero .left-box {
+  width: 48.7%;
+}
+
+.hero .left-box > img {
+  width: 470px;
+  height: 685px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+
+.hero .right-box {
+  width: 51.3%;
+}
+
+.hero .left-box .summary {
+  width: 270px;
+  height: 244px;
+  background-color: #fff;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
