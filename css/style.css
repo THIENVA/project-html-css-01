@@ -173,6 +173,10 @@ body {
   height: 48px;
 }
 
+.hero .left-box .course-contents {
+  gap: 40px;
+}
+
 .hero .left-box .course-contents span:first-child {
   font-size: 1.4rem;
   line-height: 26px;
@@ -181,7 +185,7 @@ body {
 
 .hero .left-box .course-contents span:last-child {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 30px;
 }
 
