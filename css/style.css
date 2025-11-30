@@ -7,6 +7,7 @@
   --secondary-text-color: #5f5b53;
   --background-color: #fffcf4;
   --font-heading: Sen, sans-serif;
+  --accent-color: #ffb900;
 }
 
 /*common css*/
@@ -24,12 +25,12 @@ html {
 }
 
 body {
-  /* for rem calculation 1.6rem = 16px */
+  /********* for rem calculation 1.6rem = 16px *********/
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
 
-/*header css*/
+/*************header css*************/
 
 .header {
   background-color: #fffcf4;
@@ -41,7 +42,7 @@ body {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  /*short hand for margin: 0 auto;*/
+  /*****s hort hand for margin: 0 auto;*****/
   max-width: calc(100% - 24px);
 }
 
@@ -294,4 +295,44 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: var(--secondary-text-color);
+}
+
+/************Our popular courses************/
+
+.popular-courses {
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.popular-courses .info-box {
+  display: flex;
+}
+
+.popular-courses .heading {
+  width: 458px;
+}
+
+.popular-courses .info-box h2 {
+  font-family: var(--font-heading);
+  font-size: 3.6rem;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: -2%;
+  color: var(--primary-text-color);
+}
+
+.popular-courses .info-box p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: var(--secondary-text-color);
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.popular-courses .info-box .arrows:first-child {
+  background: white;
+  border: 1px solid #ccc;
+  width: 98px;
+  height: 40px;
 }
