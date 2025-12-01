@@ -14,10 +14,15 @@
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 html {
@@ -306,6 +311,8 @@ body {
 
 .popular-courses .info-box {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .popular-courses .heading {
@@ -330,9 +337,34 @@ body {
   margin-bottom: 40px;
 }
 
-.popular-courses .info-box .arrows:first-child {
+.popular-courses .info-box .arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-courses .info-box .arrows button:first-child {
   background: white;
-  border: 1px solid #ccc;
-  width: 98px;
+  border: 1px solid var(--accent-color);
+  width: 40px;
   height: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.popular-courses .info-box .arrows button:last-child {
+  background: var(--accent-color);
+  color: white;
+  border: 1px solid var(--accent-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin-left: 18px;
 }
