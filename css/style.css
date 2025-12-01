@@ -369,7 +369,7 @@ body {
   margin-left: 18px;
 }
 
-/*course cards css*/
+/*course list info css*/
 .popular-courses .course-list {
   display: flex;
   gap: 30px;
@@ -459,4 +459,67 @@ body {
 
 .popular-courses .course-info .course-footer .book-now:hover {
   background: var(--primary-text-color);
+}
+
+/*testimonial*/
+.testimonial {
+  background-color: #2e2100;
+  color: white;
+  padding-top: 104px;
+  padding-left: 150px;
+  padding-bottom: 88px;
+}
+
+.testimonial .main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial .left-box .petter-moor {
+  width: 72px;
+  height: 72px;
+}
+
+.testimonial .left-box h3 {
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 34px;
+  color: #f7f7f7;
+  margin-top: 18px;
+}
+
+.testimonial .left-box p {
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: #bfbcb2;
+  margin-top: 4px;
+  margin-bottom: 28px;
+}
+
+.testimonial .left-box .tiny-icon {
+  display: flex;
+  gap: 6px;
+}
+
+.testimonial .left-box .tiny-icon .tiny1 {
+  width: 6px;
+  height: 6px;
+  background-color: #634700;
+  border-radius: 500px;
+}
+
+.testimonial .left-box .tiny-icon .tiny2 {
+  width: 6px;
+  height: 6px;
+  background-color: #ffb900;
+  border-radius: 500px;
+}
+
+.testimonial .left-box .tiny-icon .tiny3 {
+  width: 6px;
+  height: 6px;
+  background-color: #634700;
+  border-radius: 500px;
 }
