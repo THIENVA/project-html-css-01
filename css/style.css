@@ -475,32 +475,38 @@ body {
   justify-content: space-between;
 }
 
+.testimonial .left-box {
+  display: block;
+  width: 35%;
+  gap: 4px;
+}
+
 .testimonial .left-box .petter-moor {
   width: 72px;
   height: 72px;
 }
 
-.testimonial .left-box h3 {
+.testimonial .left-box .author {
   display: block;
   font-family: var(--font-heading);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 34px;
-  color: #f7f7f7;
   margin-top: 18px;
+  color: #ffffff;
 }
 
-.testimonial .left-box p {
+.testimonial .left-box .position {
   font-size: 1.4rem;
-  line-height: 20px;
+  line-height: 26px;
   color: #bfbcb2;
-  margin-top: 4px;
-  margin-bottom: 28px;
+  margin-top: 8px;
 }
 
 .testimonial .left-box .tiny-icon {
   display: flex;
   gap: 6px;
+  margin-top: 28px;
 }
 
 .testimonial .left-box .tiny-icon .tiny1 {
@@ -522,4 +528,22 @@ body {
   height: 6px;
   background-color: #634700;
   border-radius: 500px;
+}
+
+.testimonial .right-box {
+  width: 770px;
+  position: relative;
+}
+
+.testimonial .right-box img {
+  position: absolute;
+  top: -25px;
+  left: -35px;
+}
+
+.testimonial .right-box .quote {
+  position: absolute;
+  font-style: italic;
+  font-size: 2.2rem;
+  line-height: 35 px;
 }
